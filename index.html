@@ -1,17 +1,74 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Formulario</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <h1>Criar Uma Conta</h1>
-        <form>
-            
-        </form>
+      <h2>Criar Uma Conta</h2>
+
+      <form class="form">
+        <div class="input-group">
+          <label for="name">Nome de Usuário</label>
+          <input
+            name="name"
+            id="name"
+            type="text"
+            placeholder="Digite seu nome de Usuário..."
+          />
+          <i class="fa-solid fa-exclamation-circle"></i>
+          <i class="fa-solid fa-check-circle"></i>
+          <small>Error</small>
+        </div>
+
+        <div class="input-group">
+          <label for="email">Digite seu E-mail</label>
+          <input
+            id="email"
+            type="text"
+            name="email"
+            placeholder="Digite seu email..."
+          />
+          <i class="fa-solid fa-exclamation-circle"></i>
+          <i class="fa-solid fa-check-circle"></i>
+          <small>Error</small>
+        </div>
+
+        <div class="input-group">
+          <label for="email">Digite sua Senha</label>
+          <input
+            id="password"
+            type="password"
+            name="password"
+            placeholder="Digite sua Senha..."
+          />
+          <i class="fa-solid fa-exclamation-circle"></i>
+          <i class="fa-solid fa-check-circle"></i>
+          <small>Error</small>
+        </div>
+
+        <div class="input-group">
+          <label for="email">Repita sua Senha</label>
+          <input
+            id="password"
+            type="password"
+            name="password"
+            placeholder="Digite sua Senha..."
+          />
+          <i class="fa-solid fa-exclamation-circle"></i>
+          <i class="fa-solid fa-check-circle"></i>
+          <small>Error</small>
+        </div>
+
+        <button type="submit">Enviar</button>
+      </form>
     </div>
-</body>
+  </body>
 </html>
